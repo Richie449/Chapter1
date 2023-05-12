@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+td,th {
+    border: 2px solid black;
+    width: 14.27%;
+}
+th{
+    padding: 8pxpx 0;
+    background-color: lightcoral;
+    color: lightslategray;
+}
+td{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+.weekend1{
+    background-color: lightblue;
+    color: white;
+}
+.weekday1 {
+    background-color: blanchedalmond;
+    color: black;
+}
+.schoolday {
+    background-color: crimson;
+    color: black;
+}

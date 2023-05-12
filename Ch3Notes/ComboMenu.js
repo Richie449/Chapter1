@@ -1,25 +1,18 @@
-const readline = require("readline-sync");
+const readLine=require('readline-sync')
+console.log(randomAnswer);
 
-let menu = [
-    'Chicken Sandwich: $2.50',
-    'Hamburger: $1.50',
-    'Curly Fries: $1.00',
-    'Chicken Nuggets: $1.40',
-];
+let sandwhich=readLine.question('heres the type of sandwhichs we have tofu,beef,chicken which one would you like');
+console.log(sandwhich); console.log(drink); console.log(fries); console.log(cost); console.log(sauce);
+let sandwich=readLine.question('enter a sandwhich');
+let drink choose=readLine.question('would you like a drink with that?');
 
-console.log(`${menu}`);
-let beverage = [
-'Coca-Cola: $1.50',
-'Pepsi: $1.00',
-'orange juice: $1.00'
-    'coffee'
-];
-console.log(`${beverage}`);
-let BeverageSizes = [
-    'small: $1.00',
-    'medium: $2.50',
-    'large: $3.00',
-]
-let answer = readline.question("What would you like today?");
+let drink size=readLine.question('what size?');
 
-let answer = readline.question("what beverage would you like");
+let fries =readLine.question('would you like french fries?');
+
+let fries size=readLine.question('what size?');
+
+let sauce=readLine.question('would you also like sauce?');
+
+let cost=readLine.question('your total cost is 8.70');
+

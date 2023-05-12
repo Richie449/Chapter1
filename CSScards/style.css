@@ -1,0 +1,10 @@
+.card-area{
+    display: flex;
+    flex-wrap: warp;
+}
+.card {
+    width: 400px;
+    min-height: 100px;
+    background-color: white;
+    border: 1px soild purple;
+}

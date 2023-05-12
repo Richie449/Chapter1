@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.box-one{
+    background-color: forestgreen;
+    padding: 20px;
+    border: 20px solid purple;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.box-two{
+    background-color: goldenrod;
+    padding: 20px;
+    border: 20px solid purple;
+    margin: 20px;
+    width: 25%;
+    height: 25%;
+}
